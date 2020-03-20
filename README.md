@@ -28,16 +28,16 @@ Although each ownership blockchain has an owner, the ownership blockchain group 
 To increase the scalability, just add the number of the blockchains. There is no upper limit on scalability.
 
 We achieved the original goals. The ownership blockchain group runs in high decentralization, good scalability, less power consumption, no 51% attacks. For each ownership blockchain, they are private. But for the group, it has better decentralization than the public blockchains. It can replace the public blockchains at least in the usage of cryptocurrencies.
-## For cryptocurrency
+## For cryptocurrencies
 
 For the usage of cryptocurrency, just regard each ownership blockchain as a BANKNOTE. Like the paper banknotes we are familiar with, each banknote has a fixed denomination, which is the basic unit of payment. Each payment is carried by the transfer of ownership of several banknotes. Both for paper banknotes and ownership blockchain banknotes, the payer selects a few from his banknotes, makes up the amount to be paid, transfers the ownership of the banknotes to the payee, and the payment is completed.
 
 We got the perfect cryptocurrency.
 
 Someone may ask how to transfer some money from one blockchain to another without consensus. There is no such action. Pay attention that each ownership blockchain is a banknote rather than an account. You can not transfer some money from one banknote to another. For a banknote, all what may change is its ownership. The denomination won’t change.
-For bitcoin
+### For bitcoin
 
-The ownership blockchain banknotes can also work for other cryptocurrencyies such as bitcoin. If the bitcoin miners stop mining because their income is too low, bitcoin would die. We may save it with banknotes in the follow steps.
+The ownership blockchain banknotes can also work for other cryptocurrencyies such as bitcoin. We can offer performance and power saving to bitcoin by the follow steps.
 
     Create a banknote, get its id.
     Transfer some bitcoin to the address equals to the id in step 1.
@@ -48,12 +48,12 @@ So we get a banknote of bitcoin. The part of bitcoin carried by the banknote cou
 We can create many such banknotes for the whole bitcoin amount, make bitcoin running without mining.
 
 Until the bitcoin team adds new features, we couldn’t transfer this part of bitcoin back to the public blockchain of bitcoin.
-Security
+## Security
 
 For each position of the ownership blockchain, only one person can add the block and he can only add one. If everyone does this compliantly, the ownership blockchain won’t fork. If someone added more blocks at the same position, the blockchain forks, the users can easily locate and punish the offender. For the forked blockchain, the users can identify which fork is valid by the time of broadcasting of the root blocks of the forks. And the users can finally fix the forked blockchains.
 
 We never make decisions by voting to avoid Sybil Attacks.
-## Q&A for details
+### Q&A for details
 
 Q1. Alice added one block to give an ownership blockchain banknote to Bob at her position. Then, she added another block to give it to Charlie at the same position. She made a double spend attack.
 
